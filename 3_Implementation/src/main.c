@@ -1,9 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include<conio.h>
-
-static int n=0;
+#include<math.h>
 
 #include "addrec.h"
 #include "pass.h"
@@ -13,8 +11,6 @@ static int n=0;
 #include "marks.h"
 #include "modify.h"
 #include "chgpwd.h"
-
-
 int main()
 {
     void add_a_record();
@@ -25,7 +21,7 @@ int main()
     void display_marksheet();
     void modify_a_record();
     void changepassword_check();
-    int i,count=0,a,n=0,r,m,ms;
+    int a;
     printf("\n--------------------------------------------");
     printf("\n Student details\n");
     printf("\n--------------------------------------------");

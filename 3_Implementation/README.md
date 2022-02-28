@@ -1,1 +1,0 @@
-add_a_record is used to add a record of student. delete_a_record is used to delete a record of student. modify_a_record is used to modify details of a student. changepassword_chech is used to change password of admin display_details is used to display all records of students.

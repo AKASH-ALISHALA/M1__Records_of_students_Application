@@ -1,8 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include<conio.h>
-
+#include<math.h>
 void changepassword_check()
 {
     FILE *fp;

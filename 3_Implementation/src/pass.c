@@ -1,8 +1,14 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include<conio.h>
+#include<math.h>
 
+struct Stu
+{
+    int age,rollno,math,phy,chm,sum;
+    char nm[10];
+    float avg;
+};
 void password_check()
 {
     FILE *fp;
@@ -17,7 +23,7 @@ void password_check()
     }
     for(i=0;i<6;i++)
     {
-        a=getch();
+        a=getchar();
         ch[i]=a;
         printf("*");
         if(ch[i]==c[i])

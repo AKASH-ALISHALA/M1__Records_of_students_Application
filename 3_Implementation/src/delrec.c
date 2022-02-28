@@ -1,12 +1,18 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
-#include<conio.h>
+#include<math.h>
+struct Stu
+{
+    int age,rollno,math,phy,chm,sum;
+    char nm[10];
+    float avg;
+};
 
 void delete_a_record()
 {
     FILE *fp,*fp1;
-    struct Stu s,s1;
+    struct Stu s;
     int id,found=0;
     fp=fopen("MINI_PROJECT_IN_C.DAT","rb");
     fp1=fopen("temp.dat","wb");
