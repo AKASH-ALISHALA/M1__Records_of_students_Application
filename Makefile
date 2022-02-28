@@ -11,6 +11,14 @@ LDFLAGS =
 APPNAME = main
 EXT = .c
 SRCDIR = 3_Implementation/src/main.c\
+3_Implementation/src/addrec.c\
+3_Implementation/src/chgpwd.c\
+3_Implementation/src/delrec.c\
+3_Implementation/src/display.c\
+3_Implementation/src/marks.c\
+3_Implementation/src/modify.c\
+3_Implementation/src/pass.c\
+3_Implementation/src/rec.c\
 
 OBJDIR = obj
 
