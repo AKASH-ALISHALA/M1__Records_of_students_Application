@@ -14,3 +14,5 @@ delete_a_record is used to delete a record of student.
 modify_a_record is used to modify details of a student.
 changepassword_chech is used to change password of admin
 display_details is used to display all records of students.
+
+[![Build-Linux](https://github.com/AKASH-ALISHALA/M1__Records_of_students_Application/actions/workflows/Build-Linux.yml/badge.svg?branch=main)](https://github.com/AKASH-ALISHALA/M1__Records_of_students_Application/actions/workflows/Build-Linux.yml)
